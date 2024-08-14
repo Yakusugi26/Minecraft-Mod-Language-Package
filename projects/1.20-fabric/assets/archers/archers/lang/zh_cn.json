@@ -36,8 +36,12 @@
   "item.archers.netherite_longbow": "下界合金长弓",
   "item.archers.netherite_rapid_crossbow": "轻型下界合金弩",
   "item.archers.netherite_heavy_crossbow": "重型下界合金弩",
+  "item.archers.crystal_shortbow": "水晶短弓",
+  "item.archers.crystal_longbow": "水晶长弓",
+  "item.archers.ruby_rapid_crossbow": "红宝石轻型弩",
+  "item.archers.ruby_heavy_crossbow": "红宝石重型弩",
 
-  "item.archers.archer_spell_book": "弓术手册",
+  "item.archers.archer_spell_book": "箭术手册",
 
   "spell.archers.power_shot.name": "强劲射击",
   "spell.archers.power_shot.description": "发射有力的箭，射击目标并附加其持续{effect_duration}秒的“猎人标记”，使其受到5%%的易伤，可堆叠{effect_amplifier}层。",
@@ -53,8 +57,18 @@
   "spell.archers.barrage.name": "连珠飞箭",
   "spell.archers.barrage.description": "快速连续发射多根箭。",
 
-  "advancements.rpg_classes.obtain_arrow.title": "弓手之道",
-  "advancements.rpg_classes.obtain_arrow.description": "拥有一把箭",
-  "advancements.rpg_classes.archer_mastery.title": "箭道专家",
-  "advancements.rpg_classes.archer_mastery.description": "完成整本弓术手册"
+  "spell.archers.magic_arrow.name": "魔力之箭",
+  "spell.archers.magic_arrow.description": "发射一支带有魔力的箭矢贯穿路径上的所有敌人，对每个敌人造成{damage}点伤害。",
+
+  "advancements.rpg_series.path_choose_archer.title": "箭术之道",
+  "advancements.rpg_series.path_choose_archer.description": "合成一本箭术手册",
+
+  "advancements.rpg_series.spell_novice_archer.title": "致命之箭",
+  "advancements.rpg_series.spell_novice_archer.description": "习得一个箭术技能",
+
+  "advancements.rpg_series.spell_master_archer.title": "箭道专家",
+  "advancements.rpg_series.spell_master_archer.description": "完成整本箭术手册",
+
+  "advancements.rpg_series.obtain_arrow.title": "弓手之道",
+  "advancements.rpg_series.obtain_arrow.description": "拥有一支箭"
 }
