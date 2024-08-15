@@ -19,6 +19,7 @@
   "item.paladins.diamond_claymore": "钻石阔刃大剑",
   "item.paladins.netherite_claymore": "下界合金阔刃大剑",
   "item.paladins.aeternium_claymore": "太古合金阔刃大剑",
+  "item.paladins.ruby_claymore": "红宝石阔刃大剑",
 
   "item.paladins.wooden_great_hammer": "木巨锤",
   "item.paladins.stone_great_hammer": "石巨锤",
@@ -27,12 +28,15 @@
   "item.paladins.diamond_great_hammer": "钻石巨锤",
   "item.paladins.netherite_great_hammer": "下界合金巨锤",
   "item.paladins.aeternium_great_hammer": "太古合金巨锤",
+  "item.paladins.ruby_great_hammer": "红宝石巨锤",
 
   "item.paladins.stone_mace": "石钉头锤",
   "item.paladins.iron_mace": "铁钉头锤",
   "item.paladins.golden_mace": "金钉头锤",
   "item.paladins.diamond_mace": "钻石钉头锤",
-  "item.paladins.netherite_mace": "下界钉头锤",
+  "item.paladins.netherite_mace": "下界合金钉头锤",
+  "item.paladins.aeternium_mace": "太古合金钉头锤",
+  "item.paladins.ruby_mace": "红宝石钉头锤",
 
   "item.paladins.priest_robe_head": "牧师兜帽领",
   "item.paladins.priest_robe_chest": "牧师法衣",
@@ -45,6 +49,7 @@
 
   "item.paladins.acolyte_wand": "辅祭魔杖",
   "item.paladins.holy_wand": "神圣魔杖",
+  "item.paladins.diamond_holy_wand": "钻石神圣魔杖",
   "item.paladins.netherite_holy_wand": "下界合金神圣魔杖",
 
   "item.paladins.holy_staff": "神圣权杖",
@@ -52,14 +57,27 @@
   "item.paladins.netherite_holy_staff": "下界合金神圣权杖",
   "item.paladins.ruby_holy_staff": "红宝石神圣权杖",
 
+  "item.paladins.iron_kite_shield": "铁筝形盾",
+  "item.paladins.golden_kite_shield": "金筝形盾",
+  "item.paladins.diamond_kite_shield": "钻石筝形盾",
+  "item.paladins.netherite_kite_shield": "下界合金筝形盾",
+  "item.paladins.aeternium_kite_shield": "太古合金筝形盾",
+  "item.paladins.ruby_kite_shield": "红宝石筝形盾",
+
   "spell.paladins.flash_heal.name": "闪耀治疗",
   "spell.paladins.flash_heal.description": "治疗自身或己方目标{heal}点生命值。",
   "spell.paladins.divine_protection.name": "神圣保护",
   "spell.paladins.divine_protection.description": "减轻接下来{effect_amplifier}次受到的攻击伤害，持续{effect_duration}秒。",
   "effect.paladins.divine_protection": "神圣保护",
+  "effect.paladins.divine_protection.description": "减少即将受到的伤害",
   "spell.paladins.judgement.name": "审判",
   "spell.paladins.judgement.description": "攻击目标及其{impact_range}方块范围内的敌人, 造成{damage}点伤害并附加眩晕效果，持续{effect_duration}秒。",
   "effect.paladins.judgement": "眩晕",
+  "effect.paladins.judgement.description": "禁止移动及操作",
+  "spell.paladins.battle_banner.name": "振奋战旗",
+  "spell.paladins.battle_banner.description": "在半径{cloud_radius}格的范围内提升自身或己方目标的攻击速度与击退抗性，持续{cloud_duration}秒。",
+  "effect.paladins.battle_banner": "振奋战旗",
+  "effect.paladins.battle_banner.description": "提升攻击速度与击退抗性",
 
   "spell.paladins.heal.name": "治愈",
   "spell.paladins.heal.description": "治疗自身及己方目标{heal}点生命值。",
@@ -70,16 +88,32 @@
   "spell.paladins.circle_of_healing.name": "治疗之环",
   "spell.paladins.circle_of_healing.description": "治疗自身及己方目标{heal}点生命值，并附加一定的伤害吸收，持续{effect_duration}秒。",
   "effect.paladins.priest_absorption": "伤害吸收",
+  "effect.paladins.priest_absorption.description": "吸收受到的部分伤害",
+  "spell.paladins.barrier.name": "神圣屏障",
+  "spell.paladins.barrier.description": "召唤一道环形屏障，阻挡来袭的投掷物，法术或敌人。",
 
+  "entity.paladins.barrier": "神圣屏障",
+  "entity.paladins.battle_banner": "振奋战旗",
   "entity.minecraft.villager.monk": "修士",
   "entity.minecraft.villager.paladins:monk": "修士",
   "block.paladins.monk_workbench": "修士工作台",
   "block.paladins.monk_workbench.hint": "修士村民的工作台。",
 
-  "advancements.rpg_classes.obtain_healing_rune.title": "治愈之道",
-  "advancements.rpg_classes.obtain_healing_rune.description": "获得一个治疗符文",
-  "advancements.rpg_classes.paladin_mastery.title": "审判时刻",
-  "advancements.rpg_classes.paladin_mastery.description": "获得骑士全部法术",
-  "advancements.rpg_classes.priest_mastery.title": "侍于光明",
-  "advancements.rpg_classes.priest_mastery.description": "获得牧师全部法术"
+  "advancements.rpg_series.path_choose_paladin.title": "正义之道",
+  "advancements.rpg_series.path_choose_paladin.description": "合成一本骑士圣契",
+  "advancements.rpg_series.path_choose_priest.title": "光明之道",
+  "advancements.rpg_series.path_choose_priest.description": "合成一本神圣书卷",
+
+  "advancements.rpg_series.spell_novice_paladin.title": "炽热防御者",
+  "advancements.rpg_series.spell_novice_paladin.description": "习得一个圣骑士法术",
+  "advancements.rpg_series.spell_novice_priest.title": "升天誓言",
+  "advancements.rpg_series.spell_novice_priest.description": "习得一个牧师法术",
+
+  "advancements.rpg_series.spell_master_paladin.title": "审判时刻",
+  "advancements.rpg_series.spell_master_paladin.description": "习得全部圣骑士法术",
+  "advancements.rpg_series.spell_master_priest.title": "侍于光明",
+  "advancements.rpg_series.spell_master_priest.description": "习得全部牧师法术",
+
+  "advancements.rpg_series.obtain_healing_rune.title": "治愈之道",
+  "advancements.rpg_series.obtain_healing_rune.description": "获得一个治疗符文"
 }
